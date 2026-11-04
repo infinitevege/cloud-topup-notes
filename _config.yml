@@ -1,0 +1,27 @@
+url: "https://infinitevege.github.io"
+baseurl: "/cloud-topup-notes"
+
+title: 云账号充值笔记
+description: 阿里云国际、腾讯云国际、AWS、Azure、Google Cloud 充值、续费与对账的实战笔记，USDT 付款。
+lang: zh-CN
+author: 云大哥
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-optional-front-matter
+
+relative_links:
+  enabled: true
+  collections: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - LICENSE
+  - .gitignore
